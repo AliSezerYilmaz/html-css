@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Elements</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+       /*  .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        } */
+        .para1::after{
+            content: "Paragraf Sonrası";
+        }
+        .para1::before{
+            content: "Paragraf öncesi";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quisquam maxime? Consequatur, fugiat adipisci optio vel aperiam quia alias tenetur dicta! Numquam, repellendus perspiciatis aperiam, deserunt quis beatae molestiae eum neque odio quia dolorem ab officiis laboriosam? Vel non minima, nesciunt numquam natus accusantium impedit repellat in doloribus pariatur corporis facere laborum architecto? Harum labore laborum enim facere nobis necessitatibus debitis soluta doloremque ut aliquid odio minima, fuga cumque officia quas dolorem illum! Cum, quidem? Tempora odio quibusdam atque veritatis, sint quidem enim, illum explicabo, quo nesciunt recusandae ad eum provident in reprehenderit voluptas perferendis doloribus laborum? Incidunt, quam unde!</p>
+
+</body>
+</html>

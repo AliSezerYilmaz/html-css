@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+    <style>
+        /*Tüm h1leri sec*/
+        h1 {
+            color: white;
+            background: black;
+        }
+
+        p {
+            color: white;
+            background: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        .info .secondary{
+            color: red;
+        }
+        .info .primary{
+            color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+        <ul>
+            <li>    
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p class="lead info">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, amet.</p>
+    <p class="info">Lorem ipsum <span class="primary">dolor</span>, sit amet consectetur adipisicing elit. At, fuga!</p>
+    <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, blanditiis!</p>
+    <p class="info">Lorem ipsum dolor <span class="secondary">sit amet</span> consectetur adipisicing elit. Deleniti, alias!</p>
+    <p>Test Paragraph</p>
+    <a href="#">Home</a>
+</body>
+
+</html>
